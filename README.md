@@ -18,6 +18,7 @@ This project implements an NLP-based sentiment classification model that categor
 - Gradio (for deployment)
 
 ## 🚀 How to Run
+
 ### 1. Install Dependencies
 Make sure you have Python 3.8+ installed, then run:
 
