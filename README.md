@@ -18,25 +18,31 @@ This project implements an NLP-based sentiment classification model that categor
 - Gradio (for deployment)
 
 ## 🚀 How to Run
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-2. Run the main script:
+### 1. Install Dependencies
+Make sure you have Python 3.8+ installed, then run:
+
+```bash
+pip install -r requirements.txt
+2. Run the Main Script
+This executes preprocessing, TF-IDF vectorization, model training, evaluation, and model saving:
 
 bash
 Copy code
 python nlp.py
-3. To launch the Gradio app:
+3. Launch the Gradio App (if included in your script)
+If your nlp.py contains the Gradio interface, simply run:
 
 bash
 Copy code
-python nlp.py  # (app launches automatically if included)
+python nlp.py
+The web app will open in your browser, allowing you to enter text and get sentiment predictions.
+
 📊 Model Summary
--TF-IDF Vectorizer
+TF-IDF Vectorizer
 
--Logistic Regression classifier
+Logistic Regression Classifier
 
--Evaluation metrics: Accuracy, Precision, Recall, F1-score
+Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+
 📜 License
-
 This project is licensed under the MIT License.
