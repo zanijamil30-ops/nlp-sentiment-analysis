@@ -20,25 +20,31 @@ This project implements an NLP-based sentiment classification model that categor
 ## 🚀 How to Run
 
 ### 1. Install Dependencies
-Make sure you have Python 3.8+ installed, then run:
+Make sure Python 3.8+ is installed, then run:
 
 pip install -r requirements.txt
-2. Run the Main Script
-This executes preprocessing, TF-IDF vectorization, model training, evaluation, and model saving:
+
+
+### 2. Run the Main Script
+This command executes preprocessing, TF-IDF vectorization, model training, evaluation, and model saving:
 
 python nlp.py
-3. Launch the Gradio App (if included in your script)
-If your nlp.py contains the Gradio interface, simply run:
+
+
+### 3. Launch the Gradio App
+If the Gradio interface is included in your script, running the same file will start the app:
 
 python nlp.py
-The web app will open in your browser, allowing you to enter text and get sentiment predictions.
 
-📊 Model Summary
-TF-IDF Vectorizer
+A browser window will open where you can enter text and receive sentiment predictions.
 
-Logistic Regression Classifier
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+## 📊 Model Summary
+- TF-IDF Vectorizer  
+- Logistic Regression Classifier  
+- Evaluation Metrics: Accuracy, Precision, Recall, F1-score  
 
-📜 License
+
+## 📜 License
 This project is licensed under the MIT License.
+
